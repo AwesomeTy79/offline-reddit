@@ -1,0 +1,30 @@
+{
+  "name": "offline-reddit",
+  "version": "1.0.0",
+  "description": "offline reddit",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awesomety79/offline-reddit.git"
+  },
+  "keywords": [
+    "reddit"
+  ],
+  "author": "tyler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awesomety79/offline-reddit/issues"
+  },
+  "homepage": "https://github.com/awesomety79/offline-reddit#readme",
+  "dependencies": {
+    "file-saver": "^2.0.2",
+    "jszip": "^3.2.2",
+    "snoowrap": "^1.20.1"
+  }
+}

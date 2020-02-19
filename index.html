@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="lib/jszip.min.js"></script>
+        <script src="https://not-an-aardvark.github.io/snoowrap/snoowrap-v1.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+
+    <body>
+        <label for="sub">Choose a subreddit:</label>
+        <input type="text" id="sub">
+        <br>
+        <label for="sort">Choose a sort:</label>
+        <select id="sort">
+            <option value="week">week</option>
+            <option value="day">day</option>
+            <option value="hot">hot</option>
+            <option value="new">new</option>
+        </select>
+        <button onclick="getPost()">Get!</button>
+        <br><br><br>
+        <p id="title"></p>
+        <img id="img" src="">
+    </body>
+</html>
